@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>Personal Information:
+        <label form="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" value="John" readonly> <br> <br>
+
+        <label form="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" disabled> <br><br>
+
+        <label form="Email">Email:</label>
+        <input form="Email" id="Email" name="Email" required><br>
+
+        <label form="Password">Password:</label>
+        <input form="Password" id="Password" name="Password" placeholder="Password"><br>
+
+        <input type="submit" id="submit" name="submit"><br><br>
+        <!--Radiobuttons-->
+        <label form="Gender">Gender</label><br></br>
+        <input type="radio" id="male" name="Gender" value="male"><br>
+        <label for="male">Male:</label><br>
+        <input type="radio" id="female" name="Gender" value="female"><br>
+        <label for="female">Female:</label><br><br>
+        <input type="submit" id="submit" name="submit"><br><br>
+        <!--Checkboxes-->
+        <label>Hobbies:</label>
+        <input type="checkbox" id="gaming" name="gaming" value="gaming">
+        <label for="gaming">Gaming</label><br>
+        <label>Hobbies:</label>
+        <input type="checkbox" id="football" name="football" value="football">
+        <label for="football">Football</label><br>
+        <label>Hobbies:</label>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label for="swimming">Swimming</label><br>
+
+        <!--Select-->
+        <select id="pet" name="pet">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="parrot">Parrot</option>
+
+        </select>
+        <!--Textarea-->
+        <textarea name="message" rows="10" cols="20"></textarea><br><br>
+        <input type="submit" id="submit" name="submit">
+
+        <!--Semantic elements-->
+        <article>
+
+            <h2>HTML</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, praesentium.</p>
+        </article>
+
+        <article>
+            <img src="download.oltion.jpg">
+        </article>
+        </fieldset>
+    </form>
+</body>
+</html>
