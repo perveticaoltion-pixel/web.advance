@@ -1,0 +1,61 @@
+article p{
+    background-color: white;
+    padding: 20px;
+}
+
+article > p{
+    background: red;
+}
+
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+article + p{
+    background: orange;
+}
+
+/*Hover*/
+a:hover{
+    color: red;
+    font-size: 22px;
+}
+input :focus{
+    background-color: lightyellow;
+    border: 2px solid blue;
+    outline: none;
+}
+
+/*First Child*/
+p:first-child{
+    color: green;
+    font-weight: bold;
+}
+
+/*Required*/
+
+input:required{
+    border: 2px solid orange;
+}
+
+/*Valid*/
+input:valid{
+    border-color: green;
+}
+
+/*Invalid*/
+input:Invalid{
+    border-color: red;
+}
+
+/*Inrange*/
+input:in-range{
+    background-color: aquamarine;
+}
+
+/*Out of range*/
+input:out-of-range{
+    background-color: pink;
+}

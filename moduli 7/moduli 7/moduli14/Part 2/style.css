@@ -1,0 +1,44 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+}
+
+/*First Line*/
+.text::first-line{
+    color: blue;
+    font-weight: bold;
+}
+
+/*First Letter*/
+.text::first-letter{
+    color: red;
+    font-size: 40px;
+}
+
+/*Before*/
+.text::before{
+    content: "NOTE:" ;
+    color: green;
+    font-weight: bold;
+}
+
+.text::after{
+    content: "#";
+    color:purple;
+    font-weight: bold;
+}
+
+.text::selection{
+    background-color: yellow;
+    color: black;
+}
+
+.box{
+    width: 300px;
+    height: 150;
+    background-color: aliceblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.5;
+}
