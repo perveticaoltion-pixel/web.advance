@@ -1,0 +1,68 @@
+:root{
+    --primary-color: blue;
+    --primary-color:red;
+    --padding:20px;
+    --ajnicolor:pink;
+    --dariscolor:green;
+    --paddingrigoni:16px;
+}
+
+h1{
+    backround: var(--ajnicolor);
+    color: var(--dariscolor);
+    padding: var(--paddingrigoni);
+}
+
+p{
+     backround: var(--ajnicolor);
+    color: var(--dariscolor);
+    padding: var(--paddingrigoni);
+}
+#example-one{
+    width: 12px;
+    height: 12px;
+    margin:10px;
+    background-color: green;
+}
+
+#example-two{
+    margin: 10px;
+    width: 150px;
+    height:150px;
+    border-radius: 20px;
+    border: 3px orange solid;
+}
+
+#example-three{
+    margin: 10px;
+    width: 10px;
+    height:120;
+    margin:120px;
+    border-radius: 20px;
+    border: 2px solid black;
+    backround: url(../part2/);
+}
+
+#example-four{
+    margin:10px;
+    width:150px;
+    height: 150px;
+    border-radius: 10px 60px;
+    background: red;
+}
+
+#example-five{
+     margin:10px;
+    width:150px;
+    height:150;
+    border-radius: 30px/50px;
+    background-color: brown;
+}
+
+#example-six{
+    margin:10px;
+    width:150px;
+    height:150;
+    border-radius: 30px/10px;
+    background-color: brown; 
+}
