@@ -1,0 +1,11 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    /*transform: translate(100px, 50px);*/
+    /*transform: rotate(270deg);*/
+    transform: scale(3.9);
+}

@@ -1,0 +1,39 @@
+/*ZOOM IN*/
+#speddsters img{
+    transform: scale(1);
+    transition: .3 ease-in-out;
+}
+
+#speedsters :hover img{
+    transform: scale(1.3);
+}
+
+/*SLIDE*/
+#hipsters img{
+    margin-left: 0px;
+     transition: .3 ease-in-out;
+}
+
+#hipsters :hover img{
+    margin-left: 100px;
+}
+
+/*BLUR*/
+#shadows img{
+    filter: blur(3px);
+     transition: .3 ease-in-out;
+}
+
+#shadows :hover img{
+    filter: blur(0);
+}
+
+/*GRAT SCALE*/
+#engineers img{
+    filter: grayscale(100%);
+     transition: .3 ease-in-out;
+}
+
+#engineers:hover img{
+    filter: grayscale(0);
+}
